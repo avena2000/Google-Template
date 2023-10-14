@@ -11,7 +11,8 @@ header {
 }
 main{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
+    
 }
 header nav {
     display: flex;
@@ -89,7 +90,7 @@ main .main-input {
 main .main-input-container {
     width: 525px;
     border-radius: 100px;
-    border: 1px solid #dfe1e5;
+    border: 2px solid #dfe1e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +139,7 @@ main .main-buttons button:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px #000001;
     color: #222;
+    cursor: pointer;
 }
 footer{
     position: absolute;
