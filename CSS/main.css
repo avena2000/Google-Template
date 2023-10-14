@@ -48,30 +48,34 @@ nav .nav-right-section .menu-icon {
     position: relative;
 }
 nav .nav-right-section .menu-icon:hover {
-    cursor: pointer; /* Cambia el cursor a modo selección al hacer hover */
+    cursor: pointer;
 }
 nav .nav-right-section .menu-icon::before {
     content: '';
     position: absolute;
     width: 150%;
     height: 150%;
-    border-radius: 50%; /* Hace que el seudoelemento sea un círculo */
-    background-color: rgba(240, 240, 240); /* Color de la sombra */
-    opacity: 0; /* Inicialmente oculta la sombra */
-    z-index: -1; /* Coloca el seudoelemento detrás del ícono */
-    top: 50%; /* Alinea el seudoelemento verticalmente en el centro */
-    left: 50%; /* Alinea el seudoelemento horizontalmente en el centro */
-    transform: translate(-50%, -50%); /* Centra el seudoelemento en el ícono */
+    border-radius: 50%;
+    background-color: rgba(240, 240, 240);
+    opacity: 0;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav .nav-right-section .menu-icon:hover::before {
-    opacity: 1; /* Muestra la sombra al hacer hover */
+    opacity: 1;
 }
 nav .nav-right-section img {
     border-radius: 50%;
+    margin-top: 3px;
     margin-left: 10px;
-    width: 50px;
-    height: 50px;
+}
+nav .nav-right-section :hover img {
+    box-shadow: 0px 0px 0px 4px rgba(240,240,240,1);
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(240,240,240,1);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(240,240,240,1);
 }
 main .main-logo {
     width: 530px;
