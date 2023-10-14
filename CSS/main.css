@@ -87,10 +87,15 @@ main .main-input {
     margin: 0 auto;
     margin-bottom: 35px;
 }
+main .main-input-container:hover {
+    box-shadow: 0 0px 7px #bdbaba;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
 main .main-input-container {
     width: 525px;
     border-radius: 100px;
-    border: 2px solid #dfe1e5;
+    border: 1px solid #dfe1e5;
     display: flex;
     justify-content: center;
     align-items: center;
